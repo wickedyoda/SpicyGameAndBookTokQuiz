@@ -1,0 +1,131 @@
+{
+  "user_agent": "SpicyGameAndBookTokQuizBot/0.1 (+replace-with-your-contact-or-site)",
+  "sources": [
+    {
+      "name": "twinfluence-dirty-truth",
+      "url": "https://twinfluence.com/dirty-truth-questions/",
+      "category": "dirty-truth",
+      "question_selector": "article p",
+      "min_length": 20,
+      "max_items": 300,
+      "require_question_mark": true,
+      "numbered_only": true
+    },
+    {
+      "name": "twinfluence-girlfriend-truth-or-dare",
+      "url": "https://twinfluence.com/truth-or-dare-questions-for-girlfriend/",
+      "category": "girlfriend-truth-or-dare",
+      "question_selector": "article p",
+      "min_length": 20,
+      "max_items": 750,
+      "require_question_mark": true,
+      "numbered_only": true
+    },
+    {
+      "name": "twinfluence-flirty-truth-or-dare",
+      "url": "https://twinfluence.com/flirty-truth-or-dare-questions/",
+      "category": "flirty-truth-or-dare",
+      "question_selector": "article p",
+      "min_length": 20,
+      "max_items": 600,
+      "require_question_mark": true,
+      "numbered_only": true
+    },
+    {
+      "name": "twinfluence-dirty-questions-friends",
+      "url": "https://twinfluence.com/dirty-questions-to-ask-friends/",
+      "category": "dirty-questions-friends",
+      "question_selector": "article p",
+      "min_length": 20,
+      "max_items": 400,
+      "require_question_mark": true,
+      "numbered_only": true
+    },
+    {
+      "name": "twinfluence-dirty-would-you-rather",
+      "url": "https://twinfluence.com/dirty-would-you-rather-questions/",
+      "category": "dirty-would-you-rather",
+      "question_selector": "article p",
+      "min_length": 20,
+      "max_items": 450,
+      "require_question_mark": true,
+      "numbered_only": true
+    },
+    {
+      "name": "twinfluence-dirty-this-or-that",
+      "url": "https://twinfluence.com/dirty-this-or-that-questions/",
+      "category": "dirty-this-or-that",
+      "question_selector": "article p",
+      "min_length": 15,
+      "max_items": 400,
+      "require_question_mark": true,
+      "numbered_only": true
+    },
+    {
+      "name": "icebreakerideas-spicy-friends",
+      "url": "https://icebreakerideas.com/spicy-questions-to-ask-friends/",
+      "category": "spicy-questions-friends",
+      "question_selector": "article ol li, article ul li, main ol li, main ul li",
+      "min_length": 15,
+      "max_items": 200,
+      "require_question_mark": true,
+      "numbered_only": false
+    },
+    {
+      "name": "pleasantconversation-freaky-questions",
+      "url": "https://thepleasantconversation.com/freaky-questions/",
+      "category": "freaky-questions",
+      "question_selector": "article li",
+      "min_length": 15,
+      "max_items": 550,
+      "require_question_mark": true,
+      "numbered_only": false
+    },
+    {
+      "name": "mindspacecafe-spicy-most-likely",
+      "url": "https://www.mindspacecafe.com/spicy-whos-most-likely-to-questions/",
+      "category": "spicy-most-likely",
+      "question_selector": "article p",
+      "min_length": 20,
+      "max_items": 320,
+      "require_question_mark": true,
+      "numbered_only": true
+    },
+    {
+      "name": "local-partner-desires",
+      "source_type": "local-json",
+      "path": "local_sources/partner_desires.json",
+      "url": "local://partner_desires",
+      "category": "partner-desires",
+      "prompt_field": "question",
+      "min_length": 8,
+      "max_items": 200,
+      "require_question_mark": false,
+      "numbered_only": false
+    },
+    {
+      "name": "theknot-sex-questions-couples",
+      "url": "https://www.theknot.com/content/sex-questions-for-couples",
+      "category": "sex-questions-couples",
+      "question_selector": "article p",
+      "min_length": 15,
+      "max_items": 120,
+      "require_question_mark": true,
+      "numbered_only": true
+    },
+    {
+      "name": "booktok-example",
+      "url": "https://example.com/booktok-questions",
+      "category": "booktok",
+      "question_selector": "article ul li",
+      "min_length": 15,
+      "max_items": 50,
+      "require_question_mark": true,
+      "numbered_only": false,
+      "strip_prefixes": [
+        "Q:",
+        "Question:"
+      ]
+    }
+  ]
+}
