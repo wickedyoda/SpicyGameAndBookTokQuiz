@@ -12,7 +12,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Scrape and export spicy quiz data.")
     subparsers = parser.add_subparsers(dest="command")
 
-    refresh_parser = subparsers.add_parser("refresh", help="Scrape configured sources and export JSON.")
+    refresh_parser = subparsers.add_parser("refresh", help="Scrape configured sources and export manifests.")
     refresh_parser.add_argument("--source", help="Optional source name to refresh.")
 
     subparsers.add_parser("categories", help="List loaded categories.")
@@ -20,7 +20,7 @@ def main() -> None:
     random_parser = subparsers.add_parser("random", help="Print one random question as JSON.")
     random_parser.add_argument("--category", help="Optional category filter.")
 
-    export_parser = subparsers.add_parser("export", help="Export the current SQLite data to JSON.")
+    export_parser = subparsers.add_parser("export", help="Export the current SQLite data to manifests.")
     export_parser.add_argument("--category", help="Optional category filter for the exported payload.")
 
     args = parser.parse_args()

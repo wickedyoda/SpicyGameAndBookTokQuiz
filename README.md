@@ -1,13 +1,13 @@
 # SpicyGameAndBookTokQuiz
 
-A scraper/data repo that collects spicy trivia, spicy prompts, and BookTok-style questions, stores them locally, and exports a canonical JSON file for another Discord bot to consume.
+A scraper/data repo that collects spicy trivia, spicy prompts, and BookTok-style questions, stores them locally, and exports manifest files for another Discord bot to consume.
 
 ## What this does
 
 - Scrapes question text from public webpages using CSS selectors you configure.
 - Imports tracked local JSON prompt lists alongside scraped web sources.
 - Saves deduplicated prompts into a local SQLite database.
-- Exports a stable JSON artifact at `data/questions.json`.
+- Exports a stable manifest index at `manifests/index.json`.
 - Provides a CLI for refresh, export, category listing, and random-question lookup.
 
 ## Important constraint
@@ -35,7 +35,7 @@ cp sources.example.json sources.json
 Optional environment variables:
 
 - `SPICY_DB_PATH` defaults to `data/spicy_questions.sqlite3`
-- `SPICY_EXPORT_PATH` defaults to `data/questions.json`
+- `SPICY_EXPORT_PATH` defaults to `manifests/index.json`
 - `SPICY_SOURCES_FILE` defaults to `sources.json`
 - `SPICY_SCRAPER_USER_AGENT` overrides the user agent sent while scraping
 
@@ -86,21 +86,27 @@ python3 scrape.py export
 Default behavior:
 
 - `python3 scrape.py` behaves like `python3 scrape.py refresh`
-- `refresh` scrapes configured sites and then regenerates `data/questions.json`
+- `refresh` scrapes configured sites and then regenerates `manifests/index.json` and sibling manifest files
 - `random` prints a single question as JSON so your bot can shell out if needed
 
 ## Export format
 
-The exported file at `data/questions.json` contains:
+The exported manifest index at `manifests/index.json` contains:
 
 - `generated_at`
 - `question_count`
 - `categories`
 - `category_counts`
 - `source_counts`
-- `questions`
+- `files`
 
-Each question object looks like this:
+`files` points to additional JSON files in the same `manifests/` directory:
+
+- `questions.all.json`
+- one `category.*.json` file per category
+- one `source.*.json` file per source
+
+Each question object inside those files looks like this:
 
 ```json
 {
@@ -114,7 +120,7 @@ Each question object looks like this:
 
 Your Discord bot can either:
 
-- read `data/questions.json` directly
+- read `manifests/index.json` and the referenced sibling files
 - read `data/spicy_questions.sqlite3` directly
 - shell out to `python3 scrape.py random --category dirty-truth`
 
@@ -125,4 +131,5 @@ Your Discord bot can either:
 - `sources.example.json`: example source config
 - `sources.json`: active source config
 - `local_sources/`: tracked manual prompt lists
-- `data/`: generated SQLite database and JSON export
+- `data/`: generated SQLite database
+- `manifests/`: generated manifest index and question shards

@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 DEFAULT_DB_PATH = Path("data/spicy_questions.sqlite3")
-DEFAULT_EXPORT_PATH = Path("data/questions.json")
+DEFAULT_EXPORT_PATH = Path("manifests/index.json")
 DEFAULT_SOURCES_PATH = Path("sources.json")
 
 

@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-03-20T00:20:15.282321+00:00",
+  "question_count": 80,
+  "categories": [
+    "partner-desires"
+  ],
+  "category_counts": {
+    "partner-desires": 80
+  },
+  "source_counts": {
+    "local-partner-desires": 80
+  },
+  "files": {
+    "all_questions": "questions.all.json",
+    "categories": {
+      "partner-desires": {
+        "path": "category.partner-desires.64c6119c.json",
+        "question_count": 80
+      }
+    },
+    "sources": {
+      "local-partner-desires": {
+        "path": "source.local-partner-desires.2f09dd39.json",
+        "question_count": 80
+      }
+    }
+  }
+}
