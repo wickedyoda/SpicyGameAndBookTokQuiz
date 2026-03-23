@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+from typing import Any
 
 from spicy_quiz.config import SourcesFile
 from spicy_quiz.exporter import export_questions
@@ -14,25 +15,33 @@ class SpicyQuizService:
         self.store = store
         self.sources_file = sources_file
 
-    def refresh(self, source_name: str | None = None) -> tuple[int, list[str]]:
+    def refresh(self, source_name: str | None = None) -> dict[str, Any]:
         total = 0
         touched_sources: list[str] = []
+        failed_sources: list[dict[str, str]] = []
 
         for source in self.sources_file.sources:
             if source_name and source.name.lower() != source_name.lower():
                 continue
 
-            if source.source_type == "local-json":
-                questions = load_local_json_source(source)
-            else:
-                questions = scrape_source(source, user_agent=self.sources_file.user_agent)
-            total += self.store.upsert_questions(questions)
-            touched_sources.append(source.name)
+            try:
+                if source.source_type == "local-json":
+                    questions = load_local_json_source(source)
+                else:
+                    questions = scrape_source(source, user_agent=self.sources_file.user_agent)
+                total += self.store.upsert_questions(questions)
+                touched_sources.append(source.name)
+            except Exception as exc:
+                failed_sources.append({"name": source.name, "error": str(exc)})
 
-        if source_name and not touched_sources:
+        if source_name and not touched_sources and not failed_sources:
             raise ValueError(f"Unknown source '{source_name}'.")
 
-        return total, touched_sources
+        return {
+            "saved_count": total,
+            "successful_sources": touched_sources,
+            "failed_sources": failed_sources,
+        }
 
     def export(self, export_path: Path) -> int:
         questions = self.store.list_questions()

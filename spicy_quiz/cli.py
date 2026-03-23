@@ -32,12 +32,17 @@ def main() -> None:
     service = SpicyQuizService(store, sources_file)
 
     if args.command in (None, "refresh"):
-        total, sources = service.refresh(getattr(args, "source", None))
+        result = service.refresh(getattr(args, "source", None))
         exported = service.export(config.export_path)
+        success_label = ", ".join(result["successful_sources"]) if result["successful_sources"] else "none"
         print(
-            f"Saved {total} scraped rows from: {', '.join(sources)}"
+            f"Saved {result['saved_count']} scraped rows from: {success_label}"
             f"\nExported {exported} total questions to {config.export_path}"
         )
+        if result["failed_sources"]:
+            print("\nFailed sources:")
+            for item in result["failed_sources"]:
+                print(f"- {item['name']}: {item['error']}")
         return
 
     if args.command == "categories":
