@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T03:02:43.396636+00:00",
+  "generated_at": "2026-03-23T03:26:31.454121+00:00",
   "question_count": 2505,
   "pack_count": 7,
   "categories": [
@@ -33,7 +33,7 @@
     {
       "id": "dirty-questions-friends",
       "name": "Dirty Questions Friends",
-      "path": "packs/pack.dirty-questions-friends.e4fbb9e4.json",
+      "path": "manifests/packs/pack.dirty-questions-friends.e4fbb9e4.json",
       "prompt_count": 317,
       "enabled": true,
       "category": "dirty-questions-friends"
@@ -41,7 +41,7 @@
     {
       "id": "dirty-this-or-that",
       "name": "Dirty This Or That",
-      "path": "packs/pack.dirty-this-or-that.99747e7c.json",
+      "path": "manifests/packs/pack.dirty-this-or-that.99747e7c.json",
       "prompt_count": 348,
       "enabled": true,
       "category": "dirty-this-or-that"
@@ -49,7 +49,7 @@
     {
       "id": "dirty-truth",
       "name": "Dirty Truth",
-      "path": "packs/pack.dirty-truth.8d3a9dd7.json",
+      "path": "manifests/packs/pack.dirty-truth.8d3a9dd7.json",
       "prompt_count": 218,
       "enabled": true,
       "category": "dirty-truth"
@@ -57,7 +57,7 @@
     {
       "id": "dirty-would-you-rather",
       "name": "Dirty Would You Rather",
-      "path": "packs/pack.dirty-would-you-rather.c5950258.json",
+      "path": "manifests/packs/pack.dirty-would-you-rather.c5950258.json",
       "prompt_count": 409,
       "enabled": true,
       "category": "dirty-would-you-rather"
@@ -65,7 +65,7 @@
     {
       "id": "flirty-truth-or-dare",
       "name": "Flirty Truth Or Dare",
-      "path": "packs/pack.flirty-truth-or-dare.e9b10750.json",
+      "path": "manifests/packs/pack.flirty-truth-or-dare.e9b10750.json",
       "prompt_count": 509,
       "enabled": true,
       "category": "flirty-truth-or-dare"
@@ -73,7 +73,7 @@
     {
       "id": "girlfriend-truth-or-dare",
       "name": "Girlfriend Truth Or Dare",
-      "path": "packs/pack.girlfriend-truth-or-dare.fd9a8ca7.json",
+      "path": "manifests/packs/pack.girlfriend-truth-or-dare.fd9a8ca7.json",
       "prompt_count": 624,
       "enabled": true,
       "category": "girlfriend-truth-or-dare"
@@ -81,7 +81,7 @@
     {
       "id": "partner-desires",
       "name": "Partner Desires",
-      "path": "packs/pack.partner-desires.64c6119c.json",
+      "path": "manifests/packs/pack.partner-desires.64c6119c.json",
       "prompt_count": 80,
       "enabled": true,
       "category": "partner-desires"
