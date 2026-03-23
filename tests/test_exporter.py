@@ -8,7 +8,7 @@ from spicy_quiz.models import ScrapedQuestion
 
 
 class ExporterTests(unittest.TestCase):
-    def test_writes_index_and_sibling_manifest_files(self) -> None:
+    def test_writes_index_and_pack_files(self) -> None:
         questions = [
             ScrapedQuestion(
                 prompt="Question one?",
@@ -33,20 +33,22 @@ class ExporterTests(unittest.TestCase):
             manifest_dir = index_path.parent
 
             self.assertEqual(index_payload["question_count"], 2)
-            self.assertEqual(index_payload["files"]["all_questions"], "questions.all.json")
+            self.assertEqual(index_payload["pack_count"], 2)
+            self.assertEqual(len(index_payload["packs"]), 2)
 
-            all_questions_path = manifest_dir / index_payload["files"]["all_questions"]
-            self.assertTrue(all_questions_path.exists())
-
-            dirty_truth_path = manifest_dir / index_payload["files"]["categories"]["dirty-truth"]["path"]
-            source_a_path = manifest_dir / index_payload["files"]["sources"]["source-a"]["path"]
-
+            dirty_truth_pack = next(pack for pack in index_payload["packs"] if pack["id"] == "dirty-truth")
+            dirty_truth_path = manifest_dir / dirty_truth_pack["path"]
             self.assertTrue(dirty_truth_path.exists())
-            self.assertTrue(source_a_path.exists())
 
-            all_payload = json.loads(all_questions_path.read_text(encoding="utf-8"))
-            self.assertEqual(all_payload["question_count"], 2)
-            self.assertEqual(all_payload["questions"][1]["metadata"]["level"], 2)
+            pack_payload = json.loads(dirty_truth_path.read_text(encoding="utf-8"))
+            self.assertEqual(pack_payload["prompt_count"], 1)
+            self.assertEqual(pack_payload["prompts"][0]["id"], "dirty-truth_0001")
+            self.assertEqual(pack_payload["prompts"][0]["text"], "Question one?")
+
+            booktok_pack = next(pack for pack in index_payload["packs"] if pack["id"] == "booktok")
+            booktok_path = manifest_dir / booktok_pack["path"]
+            booktok_payload = json.loads(booktok_path.read_text(encoding="utf-8"))
+            self.assertEqual(booktok_payload["prompts"][0]["metadata"]["level"], 2)
 
 
 if __name__ == "__main__":

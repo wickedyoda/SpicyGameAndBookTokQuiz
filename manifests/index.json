@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-03-20T00:20:15.282321+00:00",
+  "generated_at": "2026-03-23T02:57:30.386622+00:00",
   "question_count": 80,
+  "pack_count": 1,
   "categories": [
     "partner-desires"
   ],
@@ -10,19 +11,14 @@
   "source_counts": {
     "local-partner-desires": 80
   },
-  "files": {
-    "all_questions": "questions.all.json",
-    "categories": {
-      "partner-desires": {
-        "path": "category.partner-desires.64c6119c.json",
-        "question_count": 80
-      }
-    },
-    "sources": {
-      "local-partner-desires": {
-        "path": "source.local-partner-desires.2f09dd39.json",
-        "question_count": 80
-      }
+  "packs": [
+    {
+      "id": "partner-desires",
+      "name": "Partner Desires",
+      "path": "packs/pack.partner-desires.64c6119c.json",
+      "prompt_count": 80,
+      "enabled": true,
+      "category": "partner-desires"
     }
-  }
+  ]
 }
