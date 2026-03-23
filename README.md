@@ -7,7 +7,7 @@ A scraper/data repo that collects spicy trivia, spicy prompts, and BookTok-style
 - Scrapes question text from public webpages using CSS selectors you configure.
 - Imports tracked local JSON prompt lists alongside scraped web sources.
 - Saves deduplicated prompts into a local SQLite database.
-- Exports a stable manifest index at `manifests/index.json`.
+- Exports a Wicked Yoda-compatible manifest index at `manifests/index.json`.
 - Provides a CLI for refresh, export, category listing, and random-question lookup.
 
 ## Important constraint
@@ -86,7 +86,7 @@ python3 scrape.py export
 Default behavior:
 
 - `python3 scrape.py` behaves like `python3 scrape.py refresh`
-- `refresh` scrapes configured sites and then regenerates `manifests/index.json` and sibling manifest files
+- `refresh` scrapes configured sites and then regenerates `manifests/index.json` and pack files
 - `random` prints a single question as JSON so your bot can shell out if needed
 
 ## Export format
@@ -95,23 +95,31 @@ The exported manifest index at `manifests/index.json` contains:
 
 - `generated_at`
 - `question_count`
+- `pack_count`
 - `categories`
 - `category_counts`
 - `source_counts`
-- `files`
+- `packs`
 
-`files` points to additional JSON files in the same `manifests/` directory:
+Each item in `packs` includes:
 
-- `questions.all.json`
-- one `category.*.json` file per category
-- one `source.*.json` file per source
+- `id`
+- `name`
+- `path`
+- `prompt_count`
+- `enabled`
 
-Each question object inside those files looks like this:
+Each referenced pack file contains a top-level `prompts` list. Each prompt looks like this:
 
 ```json
 {
-  "prompt": "If I gave you a free pass to hook up with one celebrity, who would it be and why?",
+  "id": "dirty-truth_0001",
+  "type": "prompt",
   "category": "dirty-truth",
+  "rating": "18+",
+  "text": "If I gave you a free pass to hook up with one celebrity, who would it be and why?",
+  "tags": [],
+  "enabled": true,
   "source_name": "twinfluence-dirty-truth",
   "source_url": "https://twinfluence.com/dirty-truth-questions/",
   "metadata": {}
@@ -120,7 +128,7 @@ Each question object inside those files looks like this:
 
 Your Discord bot can either:
 
-- read `manifests/index.json` and the referenced sibling files
+- read `manifests/index.json` and the referenced pack files
 - read `data/spicy_questions.sqlite3` directly
 - shell out to `python3 scrape.py random --category dirty-truth`
 
@@ -132,4 +140,4 @@ Your Discord bot can either:
 - `sources.json`: active source config
 - `local_sources/`: tracked manual prompt lists
 - `data/`: generated SQLite database
-- `manifests/`: generated manifest index and question shards
+- `manifests/`: generated manifest index and pack files

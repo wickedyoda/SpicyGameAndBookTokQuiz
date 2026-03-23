@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-03-20T00:20:15.282321+00:00",
-  "category": "partner-desires",
-  "question_count": 80,
-  "questions": [
+  "id": "partner-desires",
+  "name": "Partner Desires",
+  "generated_at": "2026-03-23T03:02:43.396636+00:00",
+  "prompt_count": 80,
+  "prompts": [
     {
-      "prompt": "Anally finger partner",
+      "id": "partner-desires_0001",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Anally finger partner",
+      "tags": [
+        "anal"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -19,8 +27,15 @@
       }
     },
     {
-      "prompt": "Anally penetrate partner",
+      "id": "partner-desires_0002",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Anally penetrate partner",
+      "tags": [
+        "anal"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -34,8 +49,16 @@
       }
     },
     {
-      "prompt": "Be blindfolded by partner",
+      "id": "partner-desires_0003",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Be blindfolded by partner",
+      "tags": [
+        "light bdsm",
+        "bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -50,8 +73,15 @@
       }
     },
     {
-      "prompt": "Be dominant towards partner",
+      "id": "partner-desires_0004",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Be dominant towards partner",
+      "tags": [
+        "dominant"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -65,8 +95,13 @@
       }
     },
     {
-      "prompt": "Be shown what partner likes from porn",
+      "id": "partner-desires_0005",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Be shown what partner likes from porn",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -78,8 +113,16 @@
       }
     },
     {
-      "prompt": "Be submissive for partner",
+      "id": "partner-desires_0006",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Be submissive for partner",
+      "tags": [
+        "light bdsm",
+        "bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -94,8 +137,15 @@
       }
     },
     {
-      "prompt": "Be tied down or otherwise restrained by partner",
+      "id": "partner-desires_0007",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Be tied down or otherwise restrained by partner",
+      "tags": [
+        "bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -109,8 +159,13 @@
       }
     },
     {
-      "prompt": "Bite my partner",
+      "id": "partner-desires_0008",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Bite my partner",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -122,8 +177,15 @@
       }
     },
     {
-      "prompt": "Cum over partner's breasts / neck (pearl necklace)",
+      "id": "partner-desires_0009",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Cum over partner's breasts / neck (pearl necklace)",
+      "tags": [
+        "cumplay"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -137,8 +199,15 @@
       }
     },
     {
-      "prompt": "Cum over partner's face (facial)",
+      "id": "partner-desires_0010",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Cum over partner's face (facial)",
+      "tags": [
+        "cumplay"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -152,8 +221,15 @@
       }
     },
     {
-      "prompt": "Drop candle wax on partner",
+      "id": "partner-desires_0011",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Drop candle wax on partner",
+      "tags": [
+        "light bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -167,8 +243,15 @@
       }
     },
     {
-      "prompt": "Experiment Shibari",
+      "id": "partner-desires_0012",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Experiment Shibari",
+      "tags": [
+        "bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -181,8 +264,13 @@
       }
     },
     {
-      "prompt": "Film ourselves having sex",
+      "id": "partner-desires_0013",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Film ourselves having sex",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -193,8 +281,15 @@
       }
     },
     {
-      "prompt": "Fondle partner in a public setting (restaurant/theater)",
+      "id": "partner-desires_0014",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Fondle partner in a public setting (restaurant/theater)",
+      "tags": [
+        "exhib"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -208,8 +303,13 @@
       }
     },
     {
-      "prompt": "Go to a nudist resort with partner",
+      "id": "partner-desires_0015",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Go to a nudist resort with partner",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -220,8 +320,15 @@
       }
     },
     {
-      "prompt": "Go to a sex or swingers club with partner",
+      "id": "partner-desires_0016",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Go to a sex or swingers club with partner",
+      "tags": [
+        "swingers"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -234,8 +341,13 @@
       }
     },
     {
-      "prompt": "Go to a strip club with partner",
+      "id": "partner-desires_0017",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Go to a strip club with partner",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -246,8 +358,13 @@
       }
     },
     {
-      "prompt": "Have a 69",
+      "id": "partner-desires_0018",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have a 69",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -258,8 +375,13 @@
       }
     },
     {
-      "prompt": "Have longer teasing and foreplay sessions with partner",
+      "id": "partner-desires_0019",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have longer teasing and foreplay sessions with partner",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -270,8 +392,13 @@
       }
     },
     {
-      "prompt": "Have partner be more vocal",
+      "id": "partner-desires_0020",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner be more vocal",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -283,8 +410,15 @@
       }
     },
     {
-      "prompt": "Have partner be rougher to me in sex",
+      "id": "partner-desires_0021",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner be rougher to me in sex",
+      "tags": [
+        "bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -298,8 +432,15 @@
       }
     },
     {
-      "prompt": "Have partner be suspended while having sex",
+      "id": "partner-desires_0022",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner be suspended while having sex",
+      "tags": [
+        "bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -313,8 +454,13 @@
       }
     },
     {
-      "prompt": "Have partner give a foot job",
+      "id": "partner-desires_0023",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner give a foot job",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -326,8 +472,13 @@
       }
     },
     {
-      "prompt": "Have partner give me a sensual massage",
+      "id": "partner-desires_0024",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner give me a sensual massage",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -339,8 +490,13 @@
       }
     },
     {
-      "prompt": "Have partner sit on my face as I give oral sex",
+      "id": "partner-desires_0025",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner sit on my face as I give oral sex",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -352,8 +508,13 @@
       }
     },
     {
-      "prompt": "Have partner strip or give me a lap dance",
+      "id": "partner-desires_0026",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner strip or give me a lap dance",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -365,8 +526,15 @@
       }
     },
     {
-      "prompt": "Have partner swallow my cum",
+      "id": "partner-desires_0027",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner swallow my cum",
+      "tags": [
+        "cumplay"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -380,8 +548,13 @@
       }
     },
     {
-      "prompt": "Have partner talk dirtier to me",
+      "id": "partner-desires_0028",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner talk dirtier to me",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -393,8 +566,16 @@
       }
     },
     {
-      "prompt": "Have partner use a butt plug",
+      "id": "partner-desires_0029",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner use a butt plug",
+      "tags": [
+        "anal",
+        "toys"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -409,8 +590,15 @@
       }
     },
     {
-      "prompt": "Have partner wear a ball gag",
+      "id": "partner-desires_0030",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner wear a ball gag",
+      "tags": [
+        "bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -424,8 +612,15 @@
       }
     },
     {
-      "prompt": "Have partner wear a dog collar with a leash",
+      "id": "partner-desires_0031",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner wear a dog collar with a leash",
+      "tags": [
+        "bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -439,8 +634,13 @@
       }
     },
     {
-      "prompt": "Have partner wear stockings and high heels during sex",
+      "id": "partner-desires_0032",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have partner wear stockings and high heels during sex",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -452,8 +652,13 @@
       }
     },
     {
-      "prompt": "Have sex during periods",
+      "id": "partner-desires_0033",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have sex during periods",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -464,8 +669,15 @@
       }
     },
     {
-      "prompt": "Have sex in a car",
+      "id": "partner-desires_0034",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have sex in a car",
+      "tags": [
+        "exhib"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -478,8 +690,15 @@
       }
     },
     {
-      "prompt": "Have sex in a place where we might get caught",
+      "id": "partner-desires_0035",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have sex in a place where we might get caught",
+      "tags": [
+        "exhib"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -492,8 +711,15 @@
       }
     },
     {
-      "prompt": "Have sex in front of an outward facing window",
+      "id": "partner-desires_0036",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have sex in front of an outward facing window",
+      "tags": [
+        "exhib"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -506,8 +732,15 @@
       }
     },
     {
-      "prompt": "Have sex in the woods or in a park",
+      "id": "partner-desires_0037",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have sex in the woods or in a park",
+      "tags": [
+        "exhib"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -520,8 +753,15 @@
       }
     },
     {
-      "prompt": "Have sex in work environment (office, etc)",
+      "id": "partner-desires_0038",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Have sex in work environment (office, etc)",
+      "tags": [
+        "exhib"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -534,8 +774,15 @@
       }
     },
     {
-      "prompt": "Include another female in sex (menage-a-trois)",
+      "id": "partner-desires_0039",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Include another female in sex (menage-a-trois)",
+      "tags": [
+        "swingers"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -548,8 +795,15 @@
       }
     },
     {
-      "prompt": "Include another male in sex (menage-a-trois)",
+      "id": "partner-desires_0040",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Include another male in sex (menage-a-trois)",
+      "tags": [
+        "swingers"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -562,8 +816,16 @@
       }
     },
     {
-      "prompt": "Let another person/people/couples watch us have sex in real life",
+      "id": "partner-desires_0041",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Let another person/people/couples watch us have sex in real life",
+      "tags": [
+        "exhib",
+        "swingers"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -577,8 +839,16 @@
       }
     },
     {
-      "prompt": "Let another person/people/couples watch us have sex online",
+      "id": "partner-desires_0042",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Let another person/people/couples watch us have sex online",
+      "tags": [
+        "exhib",
+        "swingers"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -592,8 +862,13 @@
       }
     },
     {
-      "prompt": "Let my partner tell our sex stories over the internet",
+      "id": "partner-desires_0043",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Let my partner tell our sex stories over the internet",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -605,8 +880,15 @@
       }
     },
     {
-      "prompt": "Lick partner's anus",
+      "id": "partner-desires_0044",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Lick partner's anus",
+      "tags": [
+        "anal"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -620,8 +902,13 @@
       }
     },
     {
-      "prompt": "Listen to more aggressive (rap/rock) music while having sex",
+      "id": "partner-desires_0045",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Listen to more aggressive (rap/rock) music while having sex",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -632,8 +919,13 @@
       }
     },
     {
-      "prompt": "Listen to romantic music while having sex",
+      "id": "partner-desires_0046",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Listen to romantic music while having sex",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -644,8 +936,13 @@
       }
     },
     {
-      "prompt": "Mutually masturbate",
+      "id": "partner-desires_0047",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Mutually masturbate",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -656,8 +953,13 @@
       }
     },
     {
-      "prompt": "Oil yourselves during sex",
+      "id": "partner-desires_0048",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Oil yourselves during sex",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -668,8 +970,15 @@
       }
     },
     {
-      "prompt": "Participate in an large orgy (more than 4 people)",
+      "id": "partner-desires_0049",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Participate in an large orgy (more than 4 people)",
+      "tags": [
+        "swingers"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -683,8 +992,15 @@
       }
     },
     {
-      "prompt": "Peg my partner",
+      "id": "partner-desires_0050",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Peg my partner",
+      "tags": [
+        "anal"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -698,8 +1014,13 @@
       }
     },
     {
-      "prompt": "Pull partner's hair",
+      "id": "partner-desires_0051",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Pull partner's hair",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -711,8 +1032,15 @@
       }
     },
     {
-      "prompt": "Roleplay in costumes",
+      "id": "partner-desires_0052",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Roleplay in costumes",
+      "tags": [
+        "roleplay"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -725,8 +1053,15 @@
       }
     },
     {
-      "prompt": "Roleplay rape partner",
+      "id": "partner-desires_0053",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Roleplay rape partner",
+      "tags": [
+        "roleplay"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -740,8 +1075,13 @@
       }
     },
     {
-      "prompt": "Shave partner",
+      "id": "partner-desires_0054",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Shave partner",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -753,8 +1093,13 @@
       }
     },
     {
-      "prompt": "Show pictures of us having sex over the internet",
+      "id": "partner-desires_0055",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Show pictures of us having sex over the internet",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -765,8 +1110,13 @@
       }
     },
     {
-      "prompt": "Show pictures/film of partner over the internet (anonymously)",
+      "id": "partner-desires_0056",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Show pictures/film of partner over the internet (anonymously)",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -778,8 +1128,13 @@
       }
     },
     {
-      "prompt": "Slap partner's face during sex",
+      "id": "partner-desires_0057",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Slap partner's face during sex",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -791,8 +1146,15 @@
       }
     },
     {
-      "prompt": "Spank partner with a paddle",
+      "id": "partner-desires_0058",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Spank partner with a paddle",
+      "tags": [
+        "bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -806,8 +1168,15 @@
       }
     },
     {
-      "prompt": "Spank partner with your hand",
+      "id": "partner-desires_0059",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Spank partner with your hand",
+      "tags": [
+        "light bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -821,8 +1190,13 @@
       }
     },
     {
-      "prompt": "Take pictures of partner",
+      "id": "partner-desires_0060",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Take pictures of partner",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -834,8 +1208,13 @@
       }
     },
     {
-      "prompt": "Take pictures of us having sex",
+      "id": "partner-desires_0061",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Take pictures of us having sex",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -846,8 +1225,16 @@
       }
     },
     {
-      "prompt": "That my partner double penetrates me (sex, toys)",
+      "id": "partner-desires_0062",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "That my partner double penetrates me (sex, toys)",
+      "tags": [
+        "anal",
+        "toys"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -862,8 +1249,16 @@
       }
     },
     {
-      "prompt": "That my partner uses a remote controlled toy on me in public",
+      "id": "partner-desires_0063",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "That my partner uses a remote controlled toy on me in public",
+      "tags": [
+        "exhib",
+        "toys"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -878,8 +1273,16 @@
       }
     },
     {
-      "prompt": "That my partner uses nipple clamps",
+      "id": "partner-desires_0064",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "That my partner uses nipple clamps",
+      "tags": [
+        "bdsm",
+        "toys"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -894,8 +1297,16 @@
       }
     },
     {
-      "prompt": "That my partner walks in public with cum on clothes / skin",
+      "id": "partner-desires_0065",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "That my partner walks in public with cum on clothes / skin",
+      "tags": [
+        "hard exhib",
+        "cumplay"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -910,8 +1321,15 @@
       }
     },
     {
-      "prompt": "That my partner walks naked in public (beach, street, parking, hike, ...)",
+      "id": "partner-desires_0066",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "That my partner walks naked in public (beach, street, parking, hike, ...)",
+      "tags": [
+        "hard exhib"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -925,8 +1343,13 @@
       }
     },
     {
-      "prompt": "Thrust my penis between partner's breasts",
+      "id": "partner-desires_0067",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Thrust my penis between partner's breasts",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -938,8 +1361,13 @@
       }
     },
     {
-      "prompt": "Use a riding crop on partner",
+      "id": "partner-desires_0068",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Use a riding crop on partner",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -951,8 +1379,13 @@
       }
     },
     {
-      "prompt": "Use mirrors while having sex",
+      "id": "partner-desires_0069",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Use mirrors while having sex",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -963,8 +1396,16 @@
       }
     },
     {
-      "prompt": "Use restraints on partner",
+      "id": "partner-desires_0070",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Use restraints on partner",
+      "tags": [
+        "light bdsm",
+        "bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -979,8 +1420,15 @@
       }
     },
     {
-      "prompt": "Use sex furniture (such as a sex swing or ramp)",
+      "id": "partner-desires_0071",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Use sex furniture (such as a sex swing or ramp)",
+      "tags": [
+        "toys"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -993,8 +1441,15 @@
       }
     },
     {
-      "prompt": "Use vibrators while having sex",
+      "id": "partner-desires_0072",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Use vibrators while having sex",
+      "tags": [
+        "toys"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -1007,8 +1462,13 @@
       }
     },
     {
-      "prompt": "Wake each other up with morning sex",
+      "id": "partner-desires_0073",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Wake each other up with morning sex",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -1019,8 +1479,16 @@
       }
     },
     {
-      "prompt": "Watch other couples have sex in real life",
+      "id": "partner-desires_0074",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Watch other couples have sex in real life",
+      "tags": [
+        "voyeur",
+        "swingers"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -1034,8 +1502,16 @@
       }
     },
     {
-      "prompt": "Watch other couples have sex online",
+      "id": "partner-desires_0075",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Watch other couples have sex online",
+      "tags": [
+        "voyeur",
+        "swingers"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -1049,8 +1525,15 @@
       }
     },
     {
-      "prompt": "Watch partner have sex with another person",
+      "id": "partner-desires_0076",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Watch partner have sex with another person",
+      "tags": [
+        "swingers"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -1064,8 +1547,13 @@
       }
     },
     {
-      "prompt": "Watch partner masturbate",
+      "id": "partner-desires_0077",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Watch partner masturbate",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -1077,8 +1565,13 @@
       }
     },
     {
-      "prompt": "Watch porn together",
+      "id": "partner-desires_0078",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Watch porn together",
+      "tags": [],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -1089,8 +1582,15 @@
       }
     },
     {
-      "prompt": "Wear a cock ring (vibrating/non-vibrating) during sex",
+      "id": "partner-desires_0079",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Wear a cock ring (vibrating/non-vibrating) during sex",
+      "tags": [
+        "toys"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
@@ -1104,8 +1604,15 @@
       }
     },
     {
-      "prompt": "Whip partner",
+      "id": "partner-desires_0080",
+      "type": "prompt",
       "category": "partner-desires",
+      "rating": "18+",
+      "text": "Whip partner",
+      "tags": [
+        "bdsm"
+      ],
+      "enabled": true,
       "source_name": "local-partner-desires",
       "source_url": "local://partner_desires",
       "metadata": {
