@@ -60,6 +60,10 @@ def export_questions(index_path: Path, questions: list[ScrapedQuestion]) -> None
     source_counts = Counter(question.source_name for question in questions)
     generated_at = datetime.now(timezone.utc).isoformat()
     packs_dir = manifest_dir / "packs"
+    try:
+        manifest_root = manifest_dir.relative_to(Path.cwd())
+    except ValueError:
+        manifest_root = Path(manifest_dir.name)
     prompts_by_category: dict[str, list[ScrapedQuestion]] = defaultdict(list)
     for question in questions:
         prompts_by_category[question.category].append(question)
@@ -67,7 +71,7 @@ def export_questions(index_path: Path, questions: list[ScrapedQuestion]) -> None
     packs: list[dict[str, object]] = []
     for category in sorted(prompts_by_category):
         filename = _manifest_filename("pack", category)
-        pack_path = f"packs/{filename}"
+        pack_path = str(manifest_root / "packs" / filename)
         pack_questions = prompts_by_category[category]
         pack_entries = [
             _prompt_to_catalog_entry(question, ordinal + 1)

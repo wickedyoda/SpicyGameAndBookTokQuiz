@@ -37,8 +37,9 @@ class ExporterTests(unittest.TestCase):
             self.assertEqual(len(index_payload["packs"]), 2)
 
             dirty_truth_pack = next(pack for pack in index_payload["packs"] if pack["id"] == "dirty-truth")
-            dirty_truth_path = manifest_dir / dirty_truth_pack["path"]
+            dirty_truth_path = index_path.parent.parent / dirty_truth_pack["path"]
             self.assertTrue(dirty_truth_path.exists())
+            self.assertTrue(str(dirty_truth_pack["path"]).startswith("manifests/packs/"))
 
             pack_payload = json.loads(dirty_truth_path.read_text(encoding="utf-8"))
             self.assertEqual(pack_payload["prompt_count"], 1)
@@ -46,7 +47,7 @@ class ExporterTests(unittest.TestCase):
             self.assertEqual(pack_payload["prompts"][0]["text"], "Question one?")
 
             booktok_pack = next(pack for pack in index_payload["packs"] if pack["id"] == "booktok")
-            booktok_path = manifest_dir / booktok_pack["path"]
+            booktok_path = index_path.parent.parent / booktok_pack["path"]
             booktok_payload = json.loads(booktok_path.read_text(encoding="utf-8"))
             self.assertEqual(booktok_payload["prompts"][0]["metadata"]["level"], 2)
 
